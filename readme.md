@@ -4,6 +4,24 @@
 
 ## 安装
 
+！！！！！！！特别注意
+
+将原先的代码
+
+var express = require('express');
+var app = express();
+app.use(express.bodyParser());
+改为
+
+var express = require('express');
+var bodyParder = require('body-parser');
+var app = express();
+app.use(bodyParder());
+
+
+
+
+
 ```
 npm install
 ```
