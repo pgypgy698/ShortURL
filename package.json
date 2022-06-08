@@ -1,10 +1,11 @@
 {
-	"name":"shorturl",
-	"version":"0.0.1",
-	"main": "index.js",
-	"dependencies":{
-		"express":"",
-		"querystring":"",
-		"url":""
-	}
+  "name": "shorturl",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "",
+    "querystring": "",
+    "url": ""
+  }
 }
