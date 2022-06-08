@@ -67,4 +67,4 @@ http://localhost:8088/define?origin=http://google.com/&alias=google
 MIT
 
 ## 日期
-201307182248
+2022/06/08
