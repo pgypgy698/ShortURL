@@ -16,7 +16,7 @@ app.use(express.bodyParser());
 var express = require('express');
 var bodyParder = require('body-parser');
 var app = express();
-app.use(bodyParder());
+app.use(express.urlencoded({ extended: true }))
 
 ***********************************************************************************************************************************************
 package.json 更新为如下所示！！！！！
